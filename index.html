@@ -25,7 +25,7 @@
 <!-- navbar right side -->
         <div class="flex items-center ">
                 <div class=" bg-green-100 flex items-center px-4 py-1 rounded-full mr-3">
-                    <span class="px-1">0</span>
+                    <span id="life" class="px-1">0</span>
                     <img src="./assets/heart.png" alt="heart png" class="w-5 h-5">
                 </div>
                 <div class=" bg-green-100 flex items-center px-4 py-1 rounded-full mr-3">
@@ -35,7 +35,8 @@
             <button class="bg-green-600 text-white px-4 py-1 rounded-full border-none">2 Copy</button>
         </div>
     </nav>
-    <!-- header section-start -->
+
+<!-- header section-start -->
 <header class="bg-gradient-to-l from-green-900 via-green-700 to-green-900 text-white text-center py-6">
     <div class=" flex justify-center items-center">
         <img src="./assets/logo-dark.png" alt="logo png" class="w-20 h-20 ">
@@ -45,6 +46,8 @@
         Government Emergency Services at Your Fingertip -A Project by Government of the <br> People's Republic of Bangladesh
         </p>
 </header>
+<!-- header section-ends -->
+
 <!-- main section-start -->
 <main class="bg-green-50 flex flex-col xl:flex-row">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-6 min-w-3/4">
@@ -52,7 +55,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/emergency.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">National Emergency Number</h2>
@@ -69,7 +72,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/police.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Police Helpline Number</h2>
@@ -86,7 +89,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/fire-service.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Fire Service Number</h2>
@@ -103,7 +106,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/ambulance.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Ambulance Service</h2>
@@ -120,7 +123,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/emergency.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Women & Child Helpline</h2>
@@ -137,7 +140,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/emergency.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Anti-Corruption Helpline</h2>
@@ -154,7 +157,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/emergency.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Electricity Helpline</h2>
@@ -171,7 +174,7 @@
     <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
     <div class="flex justify-between">
         <img src="./assets/brac.png" alt="emergency alarm" class="w-10 h-10">
-        <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+        <button class="click-heart text-gray-400"><p>♡</p></button>
     </div>
     <div class="flex justify-between items-center">
         <h2 class="font-bold mt-4">Brac Helpline</h2>
@@ -188,7 +191,7 @@
         <div class="bg-white text-black p-4 border-gray-100 border-1 rounded-xl shadow-md">
         <div class="flex justify-between">
             <img src="./assets/Bangladesh-Railway.png" alt="emergency alarm" class="w-10 h-10">
-            <span class="text-gray-400"><i class="fa-regular fa-heart"></i></span>
+            <button class="click-heart text-gray-400"><p>♡</p></button>
         </div>
         <div class="flex justify-between items-center">
             <h2 class="font-bold mt-4">Bangladesh Railway Helpline</h2>
